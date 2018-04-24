@@ -6,15 +6,15 @@ printf("Enter the number: ");
 scanf("%d",&a);
 if(1<=a<=100000)
 {
-printf("The number is positive");
+printf("Positive");
 }
 else if(a==0)
 {
-printf("The number is zero");
+printf("Zero");
 }
 else
 {
-printf("The number is negative");
+printf("negative");
 }
 return 0;
 }
