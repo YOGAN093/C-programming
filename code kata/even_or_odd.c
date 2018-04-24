@@ -2,7 +2,7 @@
 int main()
 {
 int a;
-printf("Enter the number: ");
+printf(" ");
 scanf("%d",&a);
 if(1<=a<=100000)
 {
