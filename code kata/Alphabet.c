@@ -3,7 +3,7 @@
 int main()
 {
 char ch;
-printf("Enter the Character: ");
+printf(" ");
 scanf("%c",&ch);
 if(isalpha(ch))
 {
@@ -11,7 +11,7 @@ if(isalpha(ch))
 }
 else
 {
-  printf("Not");
+  printf("No");
 }
 return 0;
 }
