@@ -3,23 +3,19 @@
 int main()
 {
 int a,b,c;
-printf("Enter the first Number: ");
-scanf("%d",&a);
-printf("Enter the second Number: ");
-scanf("%d",&b);
-printf("Enter the third Number: ");
-scanf("%d",&c);
+printf(" ");
+scanf("%d %d %d",&a&b&c);
 if(b<a)
 {
-  printf("%d is greater",a);
+  printf("%d",a);
 }
 else if(a<b)
 {
-  printf("%d is greater",b);
+  printf("%d",b);
 }
 else
 {
-    printf("%d is greater",c);
+    printf("%d",c);
 }
 
 return 0;
