@@ -9,6 +9,10 @@ if(ch=='A'||ch=='a'||ch=='E'||ch=='e'||ch=='I'||ch=='i'||ch
 {
   printf("");
 }
+elseif('$')
+{
+  print("invalid");
+}
 else
 {
   printf("Consonant");
