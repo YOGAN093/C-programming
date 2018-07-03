@@ -11,7 +11,7 @@ if(ch=='A'||ch=='a'||ch=='E'||ch=='e'||ch=='I'||ch=='i'||ch
 }
 else
 {
-  printf("consonant");
+  printf("Consonant");
 }
 return 0;
 }
